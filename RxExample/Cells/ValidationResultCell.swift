@@ -13,15 +13,14 @@ import RxCocoa
 
 class ValidationResultCell: RxTableViewCell {
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var label: ValidationLabel!
     
     var validationResult: Bool? {
-        didSet {
-            if let result = validationResult {
-                label.text = result ? "👍" : "👎"
-            } else {
-                label.text = nil
-            }
+        get {
+            return label.validationResult
+        }
+        set {
+            label.validationResult = newValue
         }
     }
     
@@ -31,12 +30,6 @@ class ValidationResultCell: RxTableViewCell {
                 self?.validationResult = validationResult
             })
             .disposed(by: disposeBag)
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        validationResult = nil
     }
     
 }

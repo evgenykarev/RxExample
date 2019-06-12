@@ -16,10 +16,14 @@ class MainViewController: UITableViewController {
         
         switch indexPath.row {
         case 0:
+            let viewModel = RegistrationViewModel()
+            let controller = RegistrationViewController.instantiateFromStoryboard(with: viewModel)
+            navigationController.pushViewController(controller, animated: true)
+        case 1:
             let viewModel = SimpleTableViewViewModel()
             let controller = SimpleTableViewController.instantiateFromStoryboard(with: viewModel)
             navigationController.pushViewController(controller, animated: true)
-        case 1:
+        case 2:
             let viewModel = SimpleFormViewModel()
             let controller = SimpleFormViewController.instantiateFromStoryboard(with: viewModel)
             navigationController.pushViewController(controller, animated: true)
