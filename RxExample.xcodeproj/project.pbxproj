@@ -31,6 +31,8 @@
 		5CA477BA22B11E4F00D4DA14 /* ValidationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA477B922B11E4F00D4DA14 /* ValidationLabel.swift */; };
 		5CA477BC22B1217B00D4DA14 /* RxBidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA477BB22B1217B00D4DA14 /* RxBidirectionalBinding.swift */; };
 		5CA477BE22B129D900D4DA14 /* RegistrationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA477BD22B129D900D4DA14 /* RegistrationViewController.storyboard */; };
+		5CA477C022B24D7900D4DA14 /* RxSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA477BF22B24D7900D4DA14 /* RxSubjectViewController.swift */; };
+		5CA477C222B24E5000D4DA14 /* RxSubjectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA477C122B24E5000D4DA14 /* RxSubjectViewController.storyboard */; };
 		F08577D4FC3AE9A87E10EAF0 /* Pods_RxExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472A880CBCF4BEC578AAD340 /* Pods_RxExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		5CA477B922B11E4F00D4DA14 /* ValidationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationLabel.swift; sourceTree = "<group>"; };
 		5CA477BB22B1217B00D4DA14 /* RxBidirectionalBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxBidirectionalBinding.swift; sourceTree = "<group>"; };
 		5CA477BD22B129D900D4DA14 /* RegistrationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationViewController.storyboard; sourceTree = "<group>"; };
+		5CA477BF22B24D7900D4DA14 /* RxSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSubjectViewController.swift; sourceTree = "<group>"; };
+		5CA477C122B24E5000D4DA14 /* RxSubjectViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSubjectViewController.storyboard; sourceTree = "<group>"; };
 		A051351A6E4F87C4605705C8 /* Pods-RxExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxExample.debug.xcconfig"; path = "Target Support Files/Pods-RxExample/Pods-RxExample.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3772D835D46FAFAFA80FA1 /* Pods-RxDataSourcesExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDataSourcesExample.release.xcconfig"; path = "Target Support Files/Pods-RxDataSourcesExample/Pods-RxDataSourcesExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED7877840DF2C24387449FBE /* Pods-RxDataSourcesExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDataSourcesExample.debug.xcconfig"; path = "Target Support Files/Pods-RxDataSourcesExample/Pods-RxDataSourcesExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				5CA477B422B11CC400D4DA14 /* RegistrationViewController.swift */,
 				5CA477BD22B129D900D4DA14 /* RegistrationViewController.storyboard */,
 				5CA477B622B11D1000D4DA14 /* RegistrationViewModel.swift */,
+				5CA477BF22B24D7900D4DA14 /* RxSubjectViewController.swift */,
+				5CA477C122B24E5000D4DA14 /* RxSubjectViewController.storyboard */,
 				5C937FDB22AD1F690006665A /* SimpleTableViewController.swift */,
 				5C937FDD22AD1F9C0006665A /* SimpleTableViewController.storyboard */,
 				5C937FDF22AD20280006665A /* SimpleTableViewViewModel.swift */,
@@ -247,6 +253,7 @@
 				5C937FCF22AD1A020006665A /* LaunchScreen.storyboard in Resources */,
 				5C937FCC22AD1A020006665A /* Assets.xcassets in Resources */,
 				5C937FF422AFDB060006665A /* ValidationResultCell.xib in Resources */,
+				5CA477C222B24E5000D4DA14 /* RxSubjectViewController.storyboard in Resources */,
 				5C937FEE22AFD5F70006665A /* InputCell.xib in Resources */,
 				5C937FEC22AFC0930006665A /* ButtonCell.xib in Resources */,
 				5C937FE622AFAB4B0006665A /* SimpleFormViewController.storyboard in Resources */,
@@ -332,6 +339,7 @@
 				5C937FE822AFBE2C0006665A /* RxTableViewCell.swift in Sources */,
 				5C937FC522AD1A000006665A /* AppDelegate.swift in Sources */,
 				5C937FDC22AD1F690006665A /* SimpleTableViewController.swift in Sources */,
+				5CA477C022B24D7900D4DA14 /* RxSubjectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
